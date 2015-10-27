@@ -26,7 +26,7 @@ function initVars(){
 
 
 function getDigits(){
-	$digits.click(function(event){						// I don't get how x and y are being set by anything
+	$digits.click(function(event){						// I don't get how x, y, and operator are being given any values
 	    var $value = event.target.value;				// I also feel like there are too many $ everywhere, but I can't make anything happen without them
 	    if (!$x && !$operator) {
 	      $x = $value;
@@ -63,8 +63,8 @@ function getOperators(){
 	      $y = undefined;
 	      $operator = undefined;
 	      $answer.value = $x;
-    }
-  });
+    	}
+  	});
 };
 
 
