@@ -266,7 +266,9 @@ div#calculator {
       border: 0.5px solid rgba(255, 255, 255, 0.8);
       width: 25%;
       margin-right: 0;
-      padding: 24px 0; }
+      padding: 24px 0;
+      background-color: #68b25b;
+      color: #ffffff; }
       div#calculator div.top button.clear:last-child {
         margin-right: 0; }
       div#calculator div.top button.clear:hover {
@@ -285,7 +287,9 @@ div#calculator {
       padding-right: 24px;
       padding: 24px 24px 24px 0;
       width: 75%;
-      height: 63px; }
+      height: 65px;
+      background-color: #68b25b;
+      color: #ffffff; }
       div#calculator div.top input.answer:last-child {
         margin-right: 0; }
   div#calculator div.keys {
@@ -303,7 +307,9 @@ div#calculator {
       border: 0.5px solid rgba(255, 255, 255, 0.8);
       padding: 24px 0;
       width: 25%;
-      margin-right: 0; }
+      margin-right: 0;
+      background-color: #68b25b;
+      color: #ffffff; }
       div#calculator div.keys button:last-child {
         margin-right: 0; }
       div#calculator div.keys button:nth-child(4n) {

@@ -37,6 +37,8 @@ div#calculator {
 			width: 25%;
 			margin-right: 0;
 			padding: 24px 0;
+			background-color: $primary;
+			color: $white;
 			&:hover {
 				background-color: $secondary;
 				@include transition();
@@ -50,7 +52,9 @@ div#calculator {
 			padding-right: 24px;
 			padding: 24px 24px 24px 0;
 			width: 75%;
-			height: 63px;
+			height: 65px;
+			background-color: $primary;
+			color: $white;
 		}
 	}
 	div.keys {
@@ -61,6 +65,8 @@ div#calculator {
 			padding: 24px 0;
 			width: 25%;
 			margin-right: 0;
+			background-color: $primary;
+			color: $white;
 			&:nth-child(4n) {
 				@include omega();
 				background-color: $secondary;
